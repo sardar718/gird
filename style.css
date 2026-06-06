@@ -1,0 +1,62 @@
+body {
+    background-color: #EDF1FA;
+    padding: 15px;
+}
+
+.main {
+
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+
+
+}
+
+.card {
+    box-shadow: 2px 1px 10px 1px black;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.one {
+    grid-column: span 2;
+    background-color: #7541C9;
+}
+
+.two {
+
+    background-color: #49556D;
+}
+
+.three {
+    grid-row: span 2;
+    background-color: white;
+}
+
+.four {
+    background-color: white;
+
+}
+
+.five {
+    grid-column: span 2;
+    background-color: #1A202E;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 2px 1px 10px 3px black;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+.names {
+    color: white;
+    line-height: 5px;
+    /* margin-bottom: 100px; */
+}
